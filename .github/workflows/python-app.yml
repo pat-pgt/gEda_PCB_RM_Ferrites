@@ -40,7 +40,7 @@ jobs:
     - name: Test with pytest
       run: |
         cd build
-        python ../PCB_Ferrit_RM_calc.py
+        python ../PCB_Ferrite_RM_calc.py
     - name: return workflow as artifacts
       uses: actions/upload-artifact@v3
       with:
